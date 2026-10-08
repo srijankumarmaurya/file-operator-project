@@ -12,8 +12,6 @@ A simple command-line journal application written in Python that lets you write,
 └── README.md 
 ```
 
-> **Note:** `filename.txt` is created automatically by the program, so you don't need to create it yourself. Rename `journal_manager.py` to match your actual script name.
-
 ---
 
 ## 3. 📝 Project Description
