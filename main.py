@@ -58,6 +58,7 @@ class JournalManager:
                 else:
                     print("No entries found.")
                     print()
+
         except FileNotFoundError:
             print("The file was not found.")
         
@@ -86,21 +87,17 @@ class JournalManager:
                 else:
                     print("No entries found with the given keyword.")
                 print()
+
         except FileNotFoundError:
             print("The file was not found.")
-        except ValueError:
-            print("An error occurred while searching the entries.")
+        
             print()
 
     def delete_whole_file(self):
         # Safety check to protect user data from accidental clicks
-        confirm = (
-            input(
-                "Are you absolutely sure you want to permanently delete the entire file? (yes/no): "
-            )
-            .strip()
-            .lower()
-        )
+        
+        confirm = (input("Are you absolutely sure you want to permanently delete the entire file? (yes/no): ").strip().lower())
+        
         if confirm != "yes":
             print("Deletion cancelled.")
             print()

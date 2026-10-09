@@ -5,8 +5,8 @@ A simple command-line journal application written in Python that lets you write,
 ---
 
 ## 2. 📁 Project Structure
-
 ```
+│──journal.txt
 │──main.py
 ├──output.png
 └── README.md 
@@ -52,11 +52,25 @@ Each entry is saved with the exact date and time it was written, in the format:
 
 ---
 
-## 6. 🚀 How to Run | Installation
+## 6. 💡 Core Concepts Implemented
+
+| Concept | Application in Project |
+| :--- | :--- |
+| **Object-Oriented Programming (OOP)** | Managing journal logic using classes and methods to keep the codebase structured. |
+| **File I/O Handling** | Reading from and writing to a persistent text file (`journal.txt`) using proper context managers (`with` statement). |
+| **String Manipulation** | Applying case-insensitive matching (`.lower()`) to perform clean keyword search functions. |
+| **Exception & Error Handling** | Utilizing `try-except` blocks to handle system anomalies like `FileNotFoundError` or permission blocks safely. |
+| **Control Flow & Loops** | Driving the main interactive CLI menu using conditional workflows and persistent `while` loops. |
+
+---
+
+
+## 7. 🚀 How to Run | Installation
 
 ### Prerequisites
 - [Python 3.x](https://www.python.org/downloads/) installed on your system
 - (Optional) [Git](https://git-scm.com/) to clone the repository
+
 
 ### Steps
 
@@ -89,13 +103,13 @@ No external libraries are required, since the program uses only Python's standar
 
 ---
 
-## 7. 📸 Output | Screenshots
+## 8. 📸 Output | Screenshots
 
 ### Main Menu
 ![Program Output](output.png)
 
 
-## 8. 👤 Author
+## 9. 👤 Author
 
 **NAME**-**SRIJAN KUMAR MAURYA**
 
